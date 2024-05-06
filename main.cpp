@@ -23,7 +23,7 @@ int main()
     std::cin>> pokemon1;
     std::cout<<"il tuo primo pokemon è "<< pokemon1 <<std::endl;
 
-    std::cout<<"il tuo pokemon del tuo avversario è"<<std::endl;
+    std::cout<<"il pokemon del tuo avversario è"<<std::endl;
     std::cin>> pokemon2;
     std::cout<<"il pokemon del tuo avversario è "<< pokemon2 <<std::endl;
 
@@ -32,6 +32,9 @@ int main()
     std::cin>>value;
     if(value=="yes"){
         std::cout<<pokemon1.substr(1,4) + pokemon2.substr(1,4)<<std::endl;
+    }
+    else{
+        std::cout<<"ti credevo più simpatico :)"<<std::endl;
     }
 
 
