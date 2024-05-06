@@ -23,8 +23,7 @@ int main()
 
     std::cout<<"Hai un pokemon?"<<std::endl;
     std::cin>>value1;
-    if(value2=="si" || value2=="yes")
-    {
+    if(value1=="si"){
     std::cout<<"come si chiama il tuo pokemon"<<std::endl;
     std::cin>> pokemon1;
     std::cout<<"il tuo pokemon preferito è "<< pokemon1 <<std::endl;
@@ -36,7 +35,7 @@ int main()
     std::cout<<"vuoi fonderli ? (si/no)"<<std::endl;
     std::cout<<"si/no"<<std::endl;
     std::cin>>value2;
-    if(value2=="si" || value2=="yes"){
+    if(value2=="si" ){
         std::cout<<"il pokemon fuso si chiama: "<<pokemon1.substr(0,4) + pokemon2.substr(1,4)<<std::endl;
     }
     else{
